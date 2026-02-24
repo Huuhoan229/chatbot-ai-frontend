@@ -10,6 +10,7 @@ import ImageGallery from './pages/ImageGallery';
 import TrainingAI from './pages/TrainingAI';
 import SteelRules from './pages/SteelRules';
 import AIConfig from './pages/AIConfig';
+import Agents from './pages/Agents';
 import Billing from './pages/Billing';
 import CustomerInfoSettings from './pages/CustomerInfoSettings';
 import Customers from './pages/Customers';
@@ -35,6 +36,7 @@ function App() {
           <Route path="training" element={<TrainingAI />} />
           <Route path="steel-rules" element={<SteelRules />} />
           <Route path="ai-config" element={<AIConfig />} />
+          <Route path="agents" element={<Agents />} />
           <Route path="billing" element={<Billing />} />
           <Route path="customer-info" element={<CustomerInfoSettings />} />
           <Route path="customers" element={<Customers />} />
